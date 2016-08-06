@@ -1,72 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title> Simply Grey </title>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+title: Home
+---
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/simplygrey-jekyll/css/syntax.css">
-        
-        <!-- Bootstrap core CSS -->
-    	<link href="/simplygrey-jekyll/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/simplygrey-jekyll/css/main.css">
-
-    </head>
-    <body>
-
-		<div class="container">
-
-			<div class="col-sm-3">
-				<h1>Simply Grey</h1>
-				<img id="about" src="/simplygrey-jekyll/img/logo.jpg" height="75px" width="75px" /><br />	
-
-				<strong>navigation</strong><br />
-				<a href="/simplygrey-jekyll/">home</a> <br />
-				
-					<a class="about" href="https://github.com/liamsymonds">github</a><br />
-				
-				
-				
-				<div id="about">
-					<strong>about</strong><br />
-					I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
-				</div>
-				
-			</div>
-
-			<div class="col-sm-8 col-offset-1">
-				
-				<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-      <li><span>22 Dec 2013</span> &raquo; <a href="/simplygrey-jekyll/simplygrey/2013/12/22/welcome-to-simply-grey.html">Welcome to Simply Grey</a></li>
-    
-      <li><span>22 Dec 2013</span> &raquo; <a href="/simplygrey-jekyll/ruby/2013/12/22/ruby-json.html">Parsing JSON with Ruby</a></li>
-    
-  </ul>
-</div>
-
-				
-				<footer>
-					&copy; Simply Grey
-					 
-						- <a href="https://www.github.com/liamsymonds">https://www.github.com/liamsymonds</a>
-					
-				</footer>
-			</div>
-		
-		</div>
-
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    </body>
-</html>
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
