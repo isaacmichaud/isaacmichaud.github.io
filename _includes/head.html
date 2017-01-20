@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="http://hackcss.com/prism.css">
+  <link rel="stylesheet" href="/css/prism.css">
 
   <!-- Meta information -->
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -12,14 +12,10 @@
   <link rel="canonical"
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
-  <!-- hack.css -->
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/hack.css" />
-  {% if site.theme_mode == 'standard' %}
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/standard.css" />
-  {% elsif site.theme_mode == 'dark' %}
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/dark.css" />
-  {% endif %}
-
+<!-- hack.css -->
+  <link rel="stylesheet" href="/css/hack.css" | prepend: site.baseurl />
+  <link rel="stylesheet" href="/css/standard.css" | prepend: site.baseurl />
+ 
   <!-- Custom style -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
