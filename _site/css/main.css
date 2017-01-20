@@ -94,20 +94,21 @@ a:hover {
   text-align: center;
   margin-top: 0.5em;
   display: block;
+  padding-bottom: 0.3em;
 }
 
 .posts {
-  border-top: 1px solid #e7e7e7;
-  margin-top: 1em;
+  border-top: 2px solid #e7e7e7;
+  margin-top: 0.5em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
 }
 
 .footer {
   font-size: 0.95em;
-  border-top: 1px solid #e7e7e7;
-  padding-top: 1.25em;
-  padding-bottom: 1.5em;
+  border-top: 2px solid #e7e7e7;
+  padding-top: 0.5em;
+  padding-bottom: 0em;
   overflow: hidden;
   float: center;
   text-align: center;
