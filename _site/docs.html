@@ -14,7 +14,7 @@
         content="A minimalistic theme for Jekyll, based on hack.css
 ">
   <link rel="canonical"
-        href="http://sobolevn.github.io/" />
+        href="http://sobolevn.github.io/docs" />
 
   <!-- hack.css -->
   <link rel="stylesheet" href="https://npmcdn.com/hack/dist/hack.css" />
@@ -48,7 +48,7 @@
   <nav class="menu" role="menubar">
     
     
-      <a class="menu-item active"
+      <a class="menu-item "
         role="menuitem" href="/" title="">
         Home <div class="pull-right">»</div>
       </a>
@@ -58,7 +58,7 @@
         Research <div class="pull-right">»</div>
       </a>
     
-      <a class="menu-item "
+      <a class="menu-item active"
         role="menuitem" href="/docs" title="">
         Docs <div class="pull-right">»</div>
       </a>
@@ -75,143 +75,32 @@
         </aside>
 
         <main class="cell -9of12">
-          <div>
-  <center><h1>Isaac J. Michaud</h1>
-  </center>
-</div>
-  
-    <p>
-     <code>Jekyll</code> is a simple, blog-aware, static site generator
-      perfect for personal, project,
-      or organization sites. Think of it like a
-      file-based CMS, without all the complexity.
-      <code>Jekyll</code> takes your content, renders Markdown
-      and Liquid templates, and spits out a
-      complete, static website ready to be served by Apache,
-      Nginx or another web server.
-      <code>Jekyll</code> is the engine behind GitHub Pages,
-      which you can use to host sites right
-      from your GitHub repositories.     Statistics, Mathematics, Computers, etc.
-    </p>
-  </section>
+          <h1 id="docs">Docs</h1>
 
-  <section>
- <h2>Posts</h2>
+<h2 id="configuration">Configuration</h2>
 
-  
-    
-    <div class="media">
+<p>This theme can be configured by modifying the <code class="highlighter-rouge">_config.yml</code> file.</p>
 
-      
-      <div class="t-hackcss-media-shift media-left">
-        <img class="t-hackcss-media-image"
-             src="https://habracdn.net/habr/images/1469788235/logo.svg?r=2" alt="Testing bash applications"
-             title="Testing bash applications" width="150" height="150"/>
-      </div>
-      
+<h3 id="theme-settings">Theme settings</h3>
 
-      <div class="media-body">
-        <div class="media-heading">
-          <span>14 Jan 2014 &raquo;
-            
-              <a href="https://habrahabr.ru/post/278937/" target="_blank" title="">
-                Testing bash applications
-              </a>
-            
-          </span>
-        </div>
-        <div class="media-content">
-          This is an overview post about testing frameworks in bash.
-        </div>
-      </div>
+<p>This theme supports three different mode provided by <code class="highlighter-rouge">hack.css</code>:</p>
 
-    </div>
-  
-    
-    <div class="media">
+<ul>
+  <li><code class="highlighter-rouge">standard</code></li>
+  <li><code class="highlighter-rouge">markdown</code></li>
+  <li><code class="highlighter-rouge">dark</code></li>
+</ul>
 
-      
-      <div class="t-hackcss-media-shift media-left">
-        <img class="t-hackcss-media-image"
-             src="images/avatar.png" alt="Parsing XML with Ruby"
-             title="Parsing XML with Ruby" width="150" height="150"/>
-      </div>
-      
+<p>Set <code class="highlighter-rouge">theme_mode</code> to the desired value.</p>
 
-      <div class="media-body">
-        <div class="media-heading">
-          <span>14 Jan 2014 &raquo;
-            
-              <a href="/ruby/2014/01/14/xml.html" title="">
-                Parsing XML with Ruby
-              </a>
-            
-          </span>
-        </div>
-        <div class="media-content">
-          This post will cover all the process of parsing XML with Ruby.
-        </div>
-      </div>
+<h3 id="available-customizations">Available customizations</h3>
 
-    </div>
-  
-    
-    <div class="media">
-
-      
-      <div class="t-hackcss-media-shift media-left">
-        <img class="t-hackcss-media-image"
-             src="https://avatars2.githubusercontent.com/u/4660275?v=3&s=460" alt="Creating Python wrapper around C++ API"
-             title="Creating Python wrapper around C++ API" width="150" height="150"/>
-      </div>
-      
-
-      <div class="media-body">
-        <div class="media-heading">
-          <span>22 Dec 2013 &raquo;
-            
-              <a href="/ruby/2013/12/22/helloworld.html" title="">
-                Creating Python wrapper around C++ API
-              </a>
-            
-          </span>
-        </div>
-        <div class="media-content">
-          This post will cover all the process of parsing JSON with Ruby.
-        </div>
-      </div>
-
-    </div>
-  
-    <p>
-      <code>hack.css</code> is a dead simple css framework. Chech out
-      <a href="http://hackcss.com/">hackcss.com</a> to know more.
-    </p>
-  </section>
-
-  <section>
-    <h2>Getting started</h2>
-
-    <p>
-      <ol>
-        <li>Make sure you have <code>Jekyll</code> up and running</li>
-        <li>Clone
-          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
-        </li>
-        <li>Customize it</li>
-        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
-      </ol>
-
-    </p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-
-
-
-
-
+<ul>
+  <li><code class="highlighter-rouge">your_name</code> and <code class="highlighter-rouge">email</code> strings to display them in different places on site</li>
+  <li><code class="highlighter-rouge">navigation</code> is an array of <code class="highlighter-rouge">text</code> and <code class="highlighter-rouge">url</code> pairs to render the menu</li>
+  <li><code class="highlighter-rouge">projects</code> is a setting that contains data for the <code class="highlighter-rouge">examples</code> page, every item must contain <code class="highlighter-rouge">name</code> and <code class="highlighter-rouge">link</code>, <code class="highlighter-rouge">image</code> and <code class="highlighter-rouge">description</code> are optional</li>
+  <li><code class="highlighter-rouge">social</code> contains an array of three required params: <code class="highlighter-rouge">service</code> is used to include a service icon by the <code class="highlighter-rouge"><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">include</span><span class="w"> </span><span class="err">icon-{{</span><span class="w"> </span><span class="err">service</span><span class="w"> </span><span class="p">}</span><span class="err">}.html</span><span class="w"> </span><span class="err">%}</span></code> command, <code class="highlighter-rouge">username</code> and <code class="highlighter-rouge">link</code> are quite obvious</li>
+</ul>
 
         </main>
       </div>
