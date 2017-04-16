@@ -7,10 +7,7 @@
 
 # Site settings
 title: Isaac Michaud
-description: > # this means to ignore newlines until "baseurl:"
-  A minimalistic theme for Jekyll, based on hack.css
-repository: https://github.com/wemake-services/jekyll-theme-hackcss
-baseurl: ""  # the subpath of your site, e.g. /blog
+description: Statistics
 url: http://isaacmichaud.github.io  # the base hostname & protocol for your site
 
 # Build settings
@@ -40,8 +37,8 @@ navigation:
 links:
   - text: Laber Labs
     url:  "http://www.laber-labs.com"
-  - text: Research
-    url: /research
+  - text: NC State Statistics
+    url:  "http://www.stat.ncsu.edu"
   - text: Docs
     url: /docs
   - text: Examples
