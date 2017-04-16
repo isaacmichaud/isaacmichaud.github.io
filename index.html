@@ -8,13 +8,13 @@ layout: default
 </div>
 
     <p>
-   Hi, my name is Isaac Michaud. I am a third-year Statistics Ph.D. student at North Carolina State University. My research area is optimal sequential decision processes applied to experimental design and artificial intelligence. This page is where I post updates about my research and share code that I hope others will find useful in their projects. 
+   Hi, my name is Isaac Michaud. I am a third-year Statistics Ph.D. student at North Carolina State University. My research area is optimal sequential decision processes applied to experimental design and artificial intelligence. This page is where I post updates about my research and share code that I hope others will find useful in their projects.
     </p>
   </section>
 
   <section>
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit:4%}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media">
 
