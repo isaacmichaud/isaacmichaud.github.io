@@ -1,19 +1,7 @@
 <footer>
-  <hr />
-
-  <h3 class="footer-heading">{{ site.title }}</h3>
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
-  <div class="grid t-hackcss-sm-reversed-grid">
-
-    <div class="cell -5of12">
-      <div class="contact-list">
-        <p>
-          {{ site.your_name }},
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-
+<br>
+<br>
+<center>
         {% for social in site.social %}
           {% assign template = social.service|prepend:"icon-"|append:".html" %}
           <span class="t-hackcss-social">
@@ -21,14 +9,17 @@
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
         {% endfor %}
-      </div>
-    </div>
+ 
+    <p>
+      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl}}">RSS</a>  email <a href="ijmichau at ncsu.edu">ijmichau at ncsu.edu</a>
+    </p>
 
-    <div id="footer-spacer" class="cell -1of12"></div>
+<p>
+      <code>hack.css</code> is a dead simple css framework. Check out
+      <a href="http://hackcss.com/">hackcss.com</a> to know more.
+</p>
 
-    <div class="cell -6of12">
-      <p>{{ site.description }}</p>
-    </div>
-  </div>
+</center>
+
 
 </footer>

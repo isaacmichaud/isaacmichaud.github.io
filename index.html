@@ -23,7 +23,6 @@ layout: default
   </section>
 
   <section>
- <h2>Posts</h2>
 
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
@@ -58,32 +57,4 @@ layout: default
 
     </div>
   {% endfor %}
-    <p>
-      <code>hack.css</code> is a dead simple css framework. Chech out
-      <a href="http://hackcss.com/">hackcss.com</a> to know more.
-    </p>
   </section>
-
-  <section>
-    <h2>Getting started</h2>
-
-    <p>
-      <ol>
-        <li>Make sure you have <code>Jekyll</code> up and running</li>
-        <li>Clone
-          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
-        </li>
-        <li>Customize it</li>
-        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
-      </ol>
-
-    </p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-
-
-
-
-

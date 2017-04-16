@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jekyll-theme-hackcss</title>
+    <title>Isaac Michaud</title>
     <description>A minimalistic theme for Jekyll, based on hack.css
 </description>
-    <link>http://sobolevn.github.io/</link>
-    <atom:link href="http://sobolevn.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jan 2017 18:42:28 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2017 18:42:28 -0500</lastBuildDate>
+    <link>http://isaacmichaud.github.io/</link>
+    <atom:link href="http://isaacmichaud.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 20 Jan 2017 17:11:20 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Jan 2017 17:11:20 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Tue, 14 Jan 2014 19:18:23 -0500</pubDate>
-        <link>http://sobolevn.github.io/bash/2014/01/14/foreign-link.html</link>
-        <guid isPermaLink="true">http://sobolevn.github.io/bash/2014/01/14/foreign-link.html</guid>
+        <link>http://isaacmichaud.github.io/bash/2014/01/14/foreign-link.html</link>
+        <guid isPermaLink="true">http://isaacmichaud.github.io/bash/2014/01/14/foreign-link.html</guid>
         
         
         <category>bash</category>
@@ -36,8 +36,8 @@
 &lt;p&gt;Suspendisse quis ante sed metus tristique tristique. Curabitur blandit diam at facilisis efficitur. Curabitur malesuada semper diam, nec fermentum metus tincidunt et. Nulla nec orci pretium turpis sodales efficitur suscipit euismod ligula. Sed iaculis sed nisi pulvinar efficitur. Curabitur at faucibus lectus. Etiam non cursus arcu. Phasellus urna eros, elementum vitae sodales quis, mollis a metus. Donec ultrices elementum turpis, eu aliquam leo maximus eu.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jan 2014 19:18:23 -0500</pubDate>
-        <link>http://sobolevn.github.io/ruby/2014/01/14/xml.html</link>
-        <guid isPermaLink="true">http://sobolevn.github.io/ruby/2014/01/14/xml.html</guid>
+        <link>http://isaacmichaud.github.io/ruby/2014/01/14/xml.html</link>
+        <guid isPermaLink="true">http://isaacmichaud.github.io/ruby/2014/01/14/xml.html</guid>
         
         
         <category>ruby</category>
@@ -51,8 +51,8 @@
 &lt;p&gt;Nullam molestie at risus vel aliquam. Morbi ornare cursus facilisis. Praesent tristique lobortis mi in ornare. Donec placerat arcu at ultricies ultricies. Proin ut iaculis erat. Nulla nec erat rutrum, blandit nunc volutpat, faucibus justo. Nam vel consectetur nunc.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Dec 2013 19:18:23 -0500</pubDate>
-        <link>http://sobolevn.github.io/ruby/2013/12/22/helloworld.html</link>
-        <guid isPermaLink="true">http://sobolevn.github.io/ruby/2013/12/22/helloworld.html</guid>
+        <link>http://isaacmichaud.github.io/ruby/2013/12/22/helloworld.html</link>
+        <guid isPermaLink="true">http://isaacmichaud.github.io/ruby/2013/12/22/helloworld.html</guid>
         
         
         <category>ruby</category>

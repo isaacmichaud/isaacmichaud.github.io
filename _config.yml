@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: jekyll-theme-hackcss
+title: Isaac Michaud
 description: > # this means to ignore newlines until "baseurl:"
   A minimalistic theme for Jekyll, based on hack.css
 repository: https://github.com/wemake-services/jekyll-theme-hackcss
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: http://sobolevn.github.io  # the base hostname & protocol for your site
+url: http://isaacmichaud.github.io  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -37,6 +37,16 @@ navigation:
   - text: Examples
     url: examples.html
 
+links:
+  - text: Laber Labs
+    url:  "http://www.laber-labs.com"
+  - text: Research
+    url: /research
+  - text: Docs
+    url: /docs
+  - text: Examples
+    url: examples.html
+
 projects:
   - name: git-secret
     description: A bash-tool to store your private data inside a git repository.
@@ -55,8 +65,8 @@ projects:
 
 social:
   - service: github
-    username: ijmichau
-    link: https://github.com/sobolevn
+    username: isaacmichaud
+    link: https://github.com/isaacmichaud
   - service: twitter
     username: isaacmichaud
-    link: https://twitter.com/sobolevn
+    link: https://twitter.com/isaacmichaud
