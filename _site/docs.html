@@ -9,12 +9,11 @@
   <link rel="stylesheet" href="/css/prism.css">
 
   <!-- Meta information -->
-  <title>Isaac Michaud</title>
+  <title>Isaac J. Michaud</title>
   <meta name="description"
-        content="A minimalistic theme for Jekyll, based on hack.css
-">
+        content="Statistics">
   <link rel="canonical"
-        href="http://isaacmichaud.github.io/docs" />
+        href="http://localhost:4000/docs" />
 
 <!-- hack.css -->
   <link rel="stylesheet" href="/css/hack.css" | prepend: site.baseurl />
@@ -24,8 +23,8 @@
   <link rel="stylesheet" href="/css/main.css" />
 
   <!-- Feed -->
-  <link rel="alternate" type="application/rss+xml" title="Isaac Michaud"
-        href="http://isaacmichaud.github.io/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Isaac J. Michaud"
+        href="http://localhost:4000/feed.xml" />
 
 <!-- Add seo with 'jekyll-seo' plugin! -->
 
@@ -67,11 +66,6 @@
         Docs <div class="pull-right">»</div>
       </a>
     
-      <a class="menu-item "
-        role="menuitem" href="examples.html" title="">
-        Examples <div class="pull-right">»</div>
-      </a>
-    
 	</nav>
 <br>
 	
@@ -86,18 +80,8 @@
       </a>
     
       <a class="menu-item "
-        role="menuitem" href="/research" title="">
-        Research <div class="pull-right">»</div>
-      </a>
-    
-      <a class="menu-item active"
-        role="menuitem" href="/docs" title="">
-        Docs <div class="pull-right">»</div>
-      </a>
-    
-      <a class="menu-item "
-        role="menuitem" href="examples.html" title="">
-        Examples <div class="pull-right">»</div>
+        role="menuitem" href="http://www.stat.ncsu.edu" title="">
+        NC State Statistics <div class="pull-right">»</div>
       </a>
     
   </nav>
@@ -131,7 +115,7 @@
   <li><code class="highlighter-rouge">your_name</code> and <code class="highlighter-rouge">email</code> strings to display them in different places on site</li>
   <li><code class="highlighter-rouge">navigation</code> is an array of <code class="highlighter-rouge">text</code> and <code class="highlighter-rouge">url</code> pairs to render the menu</li>
   <li><code class="highlighter-rouge">projects</code> is a setting that contains data for the <code class="highlighter-rouge">examples</code> page, every item must contain <code class="highlighter-rouge">name</code> and <code class="highlighter-rouge">link</code>, <code class="highlighter-rouge">image</code> and <code class="highlighter-rouge">description</code> are optional</li>
-  <li><code class="highlighter-rouge">social</code> contains an array of three required params: <code class="highlighter-rouge">service</code> is used to include a service icon by the <code class="highlighter-rouge"><span class="p">{</span><span class="err">%</span><span class="w"> </span><span class="err">include</span><span class="w"> </span><span class="err">icon-{{</span><span class="w"> </span><span class="err">service</span><span class="w"> </span><span class="p">}</span><span class="err">}.html</span><span class="w"> </span><span class="err">%}</span></code> command, <code class="highlighter-rouge">username</code> and <code class="highlighter-rouge">link</code> are quite obvious</li>
+  <li><code class="highlighter-rouge">social</code> contains an array of three required params: <code class="highlighter-rouge">service</code> is used to include a service icon by the <code class="highlighter-rouge">{% include icon-{{ service }}.html %}</code> command, <code class="highlighter-rouge">username</code> and <code class="highlighter-rouge">link</code> are quite obvious</li>
 </ul>
 
         </main>
