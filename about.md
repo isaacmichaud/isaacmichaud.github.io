@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi, my name is Isaac Michaud, and I am a research statistician who focuses on  Bayesian experimental design and Uncertainty Quantification. Outside of research,  I am a hobby tinker. I got started tinkering as a kid taking apart broken radios and VCRs. I like learning how to do things myself and being self-sufficient.

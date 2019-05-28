@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-A list of my projects.
-
-### More Information
+- IMisc - Isaac's Miscellanous Utilities - I just stick random bits of code in here that I find useful. Nothing is particularly well coded. 
+- **rmi** An R package for kNN mutual information estimators
+- **Truck Dismount**
+- **PiDP-8**
