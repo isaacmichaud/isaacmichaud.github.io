@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image:  https://avatars1.githubusercontent.com/u/19880770?v=3&s=400
 about:
   template: jolla
   links:
@@ -9,4 +9,4 @@ about:
       href: https://github.com/isaacmichaud
 ---
 
-About this blog
+Hi, my name is Isaac Michaud, and I am a research statistician who focuses on Bayesian experimental design and Uncertainty Quantification. Outside of research, I am a hobby tinker. I got started tinkering as a kid taking apart broken radios and VCRs. I like learning how to do things myself and being self-sufficient.
